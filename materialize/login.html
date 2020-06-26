@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Materialize  CSS -->
+    <link rel="stylesheet" href="./css/estilo.css">
+
+    <script >
+        function login(){
+        var user = 0;
+        user = document.getElementById('username');
+        var pass = document.getElementById('pass');
+        
+        if(user == 'admin' && pass == 'admin'){
+            window.location = __dirname +'index.html'
+        }else{
+            window.location = __dirname +'login.html'
+        }
+    }
+    </script>
+</head>
+<body>
+
+    <form class="box" action="login.html" method="POST">
+        <h1>Login</h1>
+        <img src="./img/img_pythonburguer.png" alt="logo">
+        <input type="text" name="username" id="username" placeholder ="Username">
+        <input type="password" name="pass" id="pass" placeholder ="Password">
+        <input type="submit" id="btnlogin" name= "" value="Login" onclick="login()" >
+        <input type="submit" id="close" name= "" value="Close" onclick="window.close()"> 
+        <input type="submit" id="close" name= "" value="Solicitar Cadastro" onclick="SolicitarCadastro()"> 
+    </form>
+
+    <!-- Materialize  Jquery -->
+    <script src="./js/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+    <!-- Materialize  JS -->
+    <script src="./js/materialize.js"></script>
+</body>
+
+</html>

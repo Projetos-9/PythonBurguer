@@ -1,0 +1,15 @@
+{
+  "name": "login",
+  "version": "1.0.0",
+  "description": "Tela de Login",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thales Bregantin <thalesbregantin@gmail.com> Giovanni do Rosh",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^9.0.4"
+  }
+}
