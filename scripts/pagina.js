@@ -15,6 +15,8 @@ function login(){
     }
 }
 
+
+
 function SolicitarCadastro(){
     window.location = 
 }
