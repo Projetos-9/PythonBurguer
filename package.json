@@ -10,6 +10,6 @@
   "author": "Thales Bregantin <thalesbregantin@gmail.com> Giovanni do Rosh",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^9.0.4"
+    "electron": "^13.6.6"
   }
 }
